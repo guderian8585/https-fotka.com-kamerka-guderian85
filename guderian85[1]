@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<link rel="manifest" href="/img/manifest.json">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="description" content="" />
+    <meta name="apple-itunes-app" content="app-id=880924228, app-argument=/>">
+        	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="theme-color" content="#389BC4">
+	<title>Poznawaj nowych znajomych na Fotce, czatuj, flirtuj</title>		
+    <script src="https://fotka.com/js/raven.0.js"></script>
+    <script>
+		if (typeof(window.__gCrWeb) === 'undefined') {
+			window['__gCrWeb'] = {};
+		}
+		if (window.location.origin.indexOf("file://") !== -1) {
+			Raven = null;
+		}
+    </script>
+            <script>
+			if (typeof(Raven) === "object" && null !== Raven) {
+				Raven.config('https://f6f740f1bafd40e5a74559b93291a1be@sentry.asteroid.pl/10', {
+					whitelistUrls: [/fotka\.com/, /s\.fotka\.pl/],
+					ignoreUrls: [/adsafeprotected\.com/, '/js/raven.js', /metrics\.nt\.vc/, /mazeability\.com/,
+						/yabidos\.com/, /solartrendinc\.com/, /gemius\.pl/, /determineyourroad\.com/, /graph\.facebook\.com/i,
+						/extensions\//i, /^chrome:\/\//i, /anyplacetrivial\.com/, /s1\.adform\.net/, /adx\.adform\.net/,
+						/adserver\.adtech\.de/, /rubiconproject\.com/
+					],
+					ignoreErrors: [/evaluating \'r\.document\.body\'/, 'SecurityError', /NS_ERROR_NOT_INITIALIZED/, 'fb_xd_fragment', 'InvalidPointerId',
+						/NS_ERROR_FAILURE/, /Load timeout for modules/, /Blocked a frame with origin/, /Failed to execute \'send\' on \'XMLHttpRequest\':/ ,'QuotaExceededError', 'Brak uprawnień',
+						/No script context is available in which to execute the script/, /NPObject/, 'Cannot read property \'tagFrame\' of undefined',"Unexpected token <",
+						'Unexpected token \'<\'', 'Can\'t execute code from a freed script', '\'r3px\' is undefined', 'Nie można wykonać kodu programu ze skryptu uwolnionego', 'r3px is not defined', 'Can\'t find variable: r3px',
+						'Object [object Object] has no method \'aliasBidder\''
+					],
+					shouldSendCallback: function(data) {
+						var sampleRate = 50; // only send 50% of errors
+						return (Math.random() * 100 <= sampleRate);
+					}
+				}).install();
+			}
+        </script>
+    
+	<script type="text/javascript">
+		window._config = {};
+		window._config.staticUrl = { js: 'https://fotka.com/js/', css: 'https://fotka.com/css/', img: 'https://fotka.com/img/' };
+
+		
+		var img_url = 'https://fotka.com/img/',css_url = 'https://fotka.com/css/', api_url = 'https://api.fotka.com/v2/';
+	</script>
+    <link href="https://fotka.com/css/newstyle.1559425591.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flowplayer/7.2.7/skin/skin.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="https://fotka.com/css/cams/room.1548407798.css" media="screen" rel="stylesheet" type="text/css" />	    <script src="https://fotka.com/js/utils.0.js"></script>
+		<link rel="search" type="application/opensearchdescription+xml" href="/out/ie8/visualsearch.xml" title="Fotka szukaj znajomych"/>
+	
+    
+    <script type="text/javascript">
+        (function () {
+                        window.readCookie = function(n){for(var r=n+"=",t=document.cookie.split(";"),e=0;e<t.length;e++){for(var i=t[e];" "==i.charAt(0);)i=i.substring(1,i.length);if(0==i.indexOf(r))return i.substring(r.length,i.length)}return null};
+            var segments = window.location.pathname.substr(1).split('/');
+
+                window._route = {"type": 0, "login": "", "segments": []};
+                window._route.type = (segments.length > 0 && ['profil', 'taknie'].indexOf(segments[0]) !== -1) ? 1 : (readCookie('user') ? 2 : 0);
+                window._route.login = (window._route.type === 1 && segments.length > 1) ? segments[1] : "";
+                window._route.segments = segments.length > 0 ? segments : [];
+            }());
+        </script>
+        
+            <script type="text/javascript">
+			(function () {
+				if (window._route.type === 1) {
+					document.write(
+						'<scr' + 'ipt>(function(){' +
+						'var urlPhotoStats = "";' +
+						'if ("localStorage" in window && window.localStorage !== null) {' +
+						'try {' +
+						'timePhoto = window.JSON.parse(window.localStorage.getItem("timePhoto"));' +
+						'if (timePhoto !== null && timePhoto.hasOwnProperty("localPerformanceLongCounter") && timePhoto.hasOwnProperty("localPerformanceTime") && timePhoto.hasOwnProperty("localPerformanceCounter")) {' +
+						'urlPhotoStats = "?longLoad=" + timePhoto.localPerformanceLongCounter + "&loadTime=" + timePhoto.localPerformanceTime+ "&loadCount=" + timePhoto.localPerformanceCounter;' +
+						'window.localStorage.removeItem("timePhoto");' +
+						'}} catch (e) {}}' +
+						'var dataVersion = (null != window._currentProfile && window._currentProfile.hasOwnProperty("version")) ? window._currentProfile.version : 1,' +
+						'useCache = (null != window._currentProfile && window._currentProfile.hasOwnProperty("useCache") && window._currentProfile.useCache),' +
+						'dataFile = (useCache) ? "/data_cached."+dataVersion+".php" : "/data.php",' +
+						'dataHost = (useCache) ? "/profil/" : "' + window.location.protocol + '//fotka.com/profil/";' +
+						'if(typeof(window._currentProfile) !== "undefined") {' +
+						'document.write(\'<scr\'+\'ipt src="\'+dataHost+window._currentProfile.login+dataFile+urlPhotoStats+\'"><\/scr\'+\'ipt>\');' +
+						'}' +
+						'}());</scr' + 'ipt>'
+					);
+					var getJSON = function (url, successHandler, errorHandler) {
+						var xhr = null,
+							isLoad = 0,
+							method = null;
+
+						if (window.XDomainRequest) {
+							xhr = new XDomainRequest();
+							method = 1;
+							xhr.onload = function () {
+								isLoad = 1;
+								successHandler && successHandler(JSON.parse(xhr.responseText));
+							};
+							xhr.onerror = function () {
+								errorHandler && errorHandler(xhr.status, xhr.responseText, isLoad, method);
+							};
+							xhr.onprogress = function () {
+							};
+						} else {
+							xhr = new XMLHttpRequest();
+							method = 2;
+							xhr.onreadystatechange = function () {
+								var status;
+								if (xhr.readyState == 4) {
+									status = xhr.status;
+									if (status == 200) {
+										isLoad = 1;
+										successHandler && successHandler(JSON.parse(xhr.responseText));
+									} else {
+										errorHandler && errorHandler(status);
+									}
+								}
+							};
+						}
+
+						xhr.open('GET', url, true);
+						xhr.send();
+					};
+					window.initializeProfile = function () {
+					};
+					window.isProfileDataReady = false;
+					getJSON(api_url + "user/dataStatic?login=" + _currentProfile.login + '&timestamp=' + _currentProfile.version, function (result) {
+						if (typeof(result) !== 'undefined' && result != null && result.profil) {
+							delete result.profil.photos;
+							delete result.profil.sex;
+							delete result.profil.photosNumber;
+							delete result.profil.city;
+
+							if (!Object.assign) {
+								Object.assign = function (source, target) {
+									for (var key in source) {
+										if (source.hasOwnProperty(key)) target[key] = source[key];
+									}
+									return target;
+								}
+							}
+
+							window._currentProfile = Object.assign(result.profil, _currentProfile);
+
+							window.isProfileDataReady = true;
+							window.initializeProfile();
+						}
+					});
+				}
+			}());
+        </script>
+    
+    <script type="text/javascript">
+		(function () {
+			if (window._route.type === 1) {
+				if (window._route.segments.length >= 4 && "albumy" === window._route.segments[2]) {
+					var albumId = parseInt(window._route.segments[3].split(','), 10);
+					if (albumId > 1) {
+						document.write(
+							'<scr' + 'ipt>(function(){' +
+							'var dataVersion = (null != window._currentProfile && window._currentProfile.hasOwnProperty("version")) ? window._currentProfile.version : 1,' +
+							'useCache = (null != window._currentProfile && window._currentProfile.hasOwnProperty("useCache") && window._currentProfile.useCache),' +
+							'dataId = (null != window._currentProfile && window._currentProfile.hasOwnProperty("id")) ? window._currentProfile.id : 0,' +
+							'dataFile = (useCache) ? "data_photos_cached."+dataVersion+".php" : "data_photos.php",' +
+							'dataHost = (useCache) ? "/profil/" : "' + window.location.protocol + '//fotka.com/profil/";' +
+							'document.write(\'<scr\'+\'ipt src="\'+dataHost+\'' + encodeURIComponent(window._route.login.login) + '/\'+dataFile+\'?id=\'+dataId+\'&albumId=' + albumId + '"><\/scr\'+\'ipt>\');' +
+							'}());</scr' + 'ipt>'
+						);
+					}
+				}
+			}
+		}());
+    </script>
+                <script type="text/javascript">
+            (function () {if(window._route.type === 2) {
+                document.write('<scr' + 'ipt src="' + window.location.protocol + '//fotka.com/out/session/index.php?t=' + (new Date().getTime()) + '" type="text/javascript"></scr' + 'ipt>');
+            }}());
+        </script>
+        <script type="text/javascript">
+            if (typeof(Raven) === "object" && null !== Raven) {
+                Raven.setUserContext(window._currentUser);
+            }
+        </script>
+        <script type="text/javascript">
+            (function () { if(window._route.type === 2) {
+                document.write(
+                    '<scr' + 'ipt>(function(){' +
+                    'if(window.location.pathname === "/") {' +
+                    'if(typeof(window._currentUser) !== "undefined" && window._currentUser !== null && window._currentUser.hasOwnProperty("id") && window._currentUser.id > 0) {' +
+                    'window.location.href="/navigator/next.php";' +
+                    '}' +
+                    '}' +
+                    '}());</scr' + 'ipt>');
+            }}());
+        </script>
+
+
+	<script type="text/javascript" src="https://fotka.com/js/jquery.0.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+<script type="text/javascript" src="https://fotka.com/js/f.1559575261.js"></script>
+<script type="text/javascript" src="https://fotka.com/js/flowplayer/flowplayer.min.0.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/0.10.1/hls.light.min.js"></script>
+<script type="text/javascript" src="https://fotka.com/js/vast.min.1552389937.js"></script>
+<script type="text/javascript" src="https://fotka.com/js/vpaid.min.1548749493.js"></script>
+<script type="text/javascript">
+    //<![CDATA[
+    var versions={"albumy.js":1548407799,"brd.js":1549380436,"cams\/cams.js":1548407799,"cams\/index.js":1559575261,"cams\/mod.js":1547112153,"cams\/ui.js":1548749493,"core\/backbone\/backbone-min.js":1547725521,"core\/underscore\/underscore-amd-min.js":1547725521,"f.js":1559575261,"fb.js":1548407799,"fb_mobile.js":1548407799,"FotkaChat.js":1554974739,"FotkaChatHTML5.js":1554903812,"f_mobile.js":1548407799,"glosy.js":1548407799,"google.js":1548407799,"group.js":1554195403,"index.js":1553266958,"mailing_panel.js":1548407799,"mapinfobox.js":1548407799,"miejscowosci_sugestie.js":1548407799,"new_forum.js":1557994526,"operacje.js":1548838635,"osiemnastka.js":1550142398,"panel\/fotkialbumy.js":1554199192,"panel\/reports.js":1551348857,"platnosci.js":1551446854,"podgladacz.js":1548682853,"pomoc.js":1548407799,"prezenty.js":1548164031,"profil\/build.js":1547214887,"profil\/iframe\/edit.js":1554972742,"profil\/iframe\/gifts.js":1548407799,"profil\/leaflet.js":1549543435,"profil\/main-min.js":1559822840,"profil\/main.js":1559551073,"profil\/models.js":1559204474,"profil\/pixie.min.js":1547043419,"profil\/router.js":1548149699,"profil\/stream.js":1559204474,"profil\/uploader.js":1553266958,"profil\/utils.js":1548407799,"profil\/views\/aboutBoxes.js":1559722961,"profil\/views\/aboutBoxes_about.js":1554292110,"profil\/views\/aboutBoxes_rwd.js":1551947847,"profil\/views\/headerBox.js":1546434975,"profil\/views\/moderate.js":1554807138,"profil\/views\/popup.js":1555574748,"profil\/views\/profile.js":1559575972,"pw.js":1558430821,"recovery_pass.js":1548423056,"rejestracja.js":1554972742,"sugestie.js":1548407799,"swfupload.js":1548407799,"szkoly_sugestie.js":1548407799,"szukaj.js":1544102154,"underbackbone.js":1547725521,"ustawienia.js":1545217265,"vast.min.js":1552389937,"vpaid.min.js":1548749493,"webpush.js":1548756612};    //]]>
+</script>
+<script type="text/javascript" data-main="https://fotka.com/js/main.0.js" src="https://fotka.com/js/core/require/require.0.js"></script>
+<script type="text/javascript">
+    //<![CDATA[
+    var arrayGifts = new Array();arrayGifts[0] = [961,'Uczeń'];arrayGifts[1] = [960,'Słownik'];arrayGifts[2] = [959,'Różowe okulary'];arrayGifts[3] = [958,'Ping Pong'];arrayGifts[4] = [957,'Pecik'];arrayGifts[5] = [955,'Obudź się'];arrayGifts[6] = [954,'Mister fotki'];arrayGifts[7] = [963,'WTF?'];arrayGifts[8] = [962,'WOW!'];arrayGifts[9] = [956,'OMG!'];arrayGifts[10] = [951,'LOL'];arrayGifts[11] = [948,'Hi'];arrayGifts[12] = [946,'Hej!'];arrayGifts[13] = [941,'Cool'];arrayGifts[14] = [953,'Miss fotki'];arrayGifts[15] = [952,'Miodzio'];arrayGifts[16] = [950,'Krzyk'];arrayGifts[17] = [949,'Hot dog'];arrayGifts[18] = [947,'Herbatnik'];arrayGifts[19] = [945,'Gorsecik'];arrayGifts[20] = [944,'Gnat'];arrayGifts[21] = [943,'Fotkowa koszulka'];arrayGifts[22] = [942,'Fotkowa bejsbolówka'];arrayGifts[23] = [940,'Banan'];arrayGifts[24] = [939,'Ale puchy'];arrayGifts[25] = [938,'Ale ossstra'];arrayGifts[26] = [924,'Nie bądź taka'];arrayGifts[27] = [923,'Bokserki'];arrayGifts[28] = [922,'I tak Cię kocham'];arrayGifts[29] = [921,'Moja Walentynko'];arrayGifts[30] = [925,'Lizak serduszko'];arrayGifts[31] = [917,'Kwiatuszek'];arrayGifts[32] = [918,'Sanki'];arrayGifts[33] = [919,'Różowa czapka'];arrayGifts[34] = [920,'Niebieska czapka'];arrayGifts[35] = [913,'Pluszowy miś'];arrayGifts[36] = [912,'Motylki w brzuchu'];arrayGifts[37] = [905,'Miłosna przechadzka'];arrayGifts[38] = [902,'Ciastko'];arrayGifts[39] = [901,'Gumowa kaczuszka'];arrayGifts[40] = [904,'Bonifacy'];arrayGifts[41] = [899,'Foch'];arrayGifts[42] = [890,'Baloniki serduszka'];arrayGifts[43] = [880,'Lemoniada'];arrayGifts[44] = [879,'Koktajl truskawkowy'];arrayGifts[45] = [889,'Uśmiech'];arrayGifts[46] = [882,'Arbuz'];arrayGifts[47] = [875,'Lody'];arrayGifts[48] = [881,'Truskawka'];arrayGifts[49] = [892,'Daj się poderwać'];arrayGifts[50] = [878,'Zakupoholiczka'];arrayGifts[51] = [886,'Proca'];arrayGifts[52] = [885,'Bomba'];arrayGifts[53] = [27,'Bukiet róż'];arrayGifts[54] = [508,'Namiętny buziak'];arrayGifts[55] = [512,'Słodki buziak'];arrayGifts[56] = [70,'Zakochany Misiek'];arrayGifts[57] = [813,'Tulaski'];arrayGifts[58] = [844,'Drink'];arrayGifts[59] = [829,'Kawa'];arrayGifts[60] = [850,'Miłego Dnia'];arrayGifts[61] = [817,'Kolia'];arrayGifts[62] = [816,'Whisky'];arrayGifts[63] = [858,'Za nas'];arrayGifts[64] = [175,'Słoneczko'];arrayGifts[65] = [176,'Wycieczka rowerowa'];arrayGifts[66] = [111,'Jesteś Super Laska'];arrayGifts[67] = [854,'Dla Ciebie!'];arrayGifts[68] = [74,'Wyznanie miłości'];arrayGifts[69] = [845,'Dzień Dobry'];arrayGifts[70] = [109,'Zaproszenie na kolację'];arrayGifts[71] = [6,'Jesteś Ciachem'];arrayGifts[72] = [815,'Słoneczniki'];arrayGifts[73] = [812,'Biedronka'];arrayGifts[74] = [819,'Co ja paczę?'];arrayGifts[75] = [818,'Mięsna przekąska'];arrayGifts[76] = [21,'Różdżka'];arrayGifts[77] = [814,'Niezapominajki'];arrayGifts[78] = [509,'Orchidea'];arrayGifts[79] = [964,'Zakręcone lizaki'];    //]]>
+</script>
+<script type="text/javascript">
+    //<![CDATA[
+    var bans = {"reasons":{"1":"(reklamowanie serwis\u00f3w www)","2":"(flodowanie, spamowanie)","3":"(przeklinanie, ubli\u017canie)","4":"(namawianie do rozbierania\/akt\u00f3w pornograficznych)","5":"(oferty seksualne)","99":"(inne powody)"}};
+var CACHE_COUNT = 20;
+var IMG_URL = 'https://fotka.com/img/'
+var SWF_URL = 'https://fotka.com/img/'
+var host = 'fotka.com'    //]]>
+</script>
+	<script type="text/javascript">
+ 		if (top.location != self.location) { top.location = self.location; }
+
+		var mobile_client = false,
+			tablet = false,
+			ipad = false,
+			iphone = false;
+
+							</script>
+
+	<script type="text/javascript">
+		(function(window,document) {
+			var isLogged = ('undefined' !== typeof(_currentUser) && _currentUser !== null && _currentUser.hasOwnProperty('id') && _currentUser.id > 0);
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			if (typeof(ga) == "function") {
+				ga('create', 'UA-7388868-4', 'auto');
+				if (isLogged) {
+					ga('set', 'Wiek', _currentUser.hasOwnProperty('age') ? _currentUser.age : null);
+					ga('set', 'Plec', _currentUser.hasOwnProperty('gender') ? _currentUser.gender: null);
+					ga('set', 'Gwiazda', _currentUser.hasOwnProperty('isPro') ? _currentUser.isPro : null);
+				}
+				ga('set', 'Zalogowany', isLogged ? 'niezalogowany' : 'zalogowany');
+			}
+		}(window,document));
+	</script>
+
+	<script type="text/javascript">
+		(function() {
+			if (typeof(photos_google_accepted) === 'undefined') {
+
+				var segments = window.location.pathname.substr(1).split('/');
+				if(segments.length > 0 && "profil" === segments[0] && 'undefined' !== typeof(window._currentProfile)) {
+					window.photos_google_accepted = window._currentProfile.photosAccepted;
+				} else if (typeof (decisionUser) !== "undefined" && typeof (decisionUser.photo_google) !== "undefined") {
+					window.photos_google_accepted = decisionUser.photo_google === "tak";
+				} else {
+									}
+			}
+		}());
+	</script>
+
+            <script type="text/javascript">
+			if (typeof (bot) == 'undefined' && 'undefined' !== typeof (_currentUser) && (!_currentUser.isPro || _currentUser.forceAds === true)) {
+					function addScriptSpolecznosci(d, x, a, async) {
+                    var z = d.createElement(x);
+                    z.type = 'text/javascript';
+                    z.src = a;
+                    if (typeof async !== "undefined") {
+                     z.async = "true";
+                    }
+
+                    var s = d.getElementsByTagName(x)[0];
+                    s.parentNode.insertBefore(z, s);
+                }
+                addScriptSpolecznosci(document, 'script', window.location.protocol + '//s.spolecznosci.net/js/core2-min.11.js');
+                addScriptSpolecznosci(document, 'script', 'https://spolecznosci.mgr.consensu.org/js/cmp.stable.min.js', true);
+			}
+        </script>
+    
+	<!-- Global site tag (gtag.js) - Google AdWords: 957211884 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-957211884"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'AW-957211884');
+	</script>
+
+        <link rel="apple-touch-icon" href="/img/nowafotka/ico/48.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/nowafotka/ico/76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/nowafotka/ico/152.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/nowafotka/ico/120.png" />
+</head>
+
+<body itemscope itemtype="https://schema.org/ItemPage">
+<div id="header">
+			<div id="login-header">
+	
+	<div id="header_android">
+		<a href="/p/mobile" onclick="doGA('trackEvent','fotka_mobilna', 'SG_Fotka_Mobile')" class="grey-link"><span class="sprites ico-mobile ico-inline" title="Fotka Mobile"></span></a>
+		<a href="/p/mobile" onclick="doGA('trackEvent','fotka_mobilna', 'SG_Fotka_Mobile')" class="grey-link margin-left">Fotka Mobile</a>
+	</div>
+
+	<div id="header-menu">
+					<a href="/zaloguj" id="zaloguj" class="header-menu-item">Zaloguj się</a>
+		<div class="header-menu-separator-big"></div>
+		<span class="k21 header-menu-item">nie masz konta? <a href="/rejestracja/">zarejestruj się</a></span>
+		</div>
+			<script type="text/template" id="header-menu-logged-in-template">
+			<div class="header-menu-item">
+										<a href="/klubgwiazd?ref=210"><span class="sprites ico-star-default"></span></a>
+						<a href="/klubgwiazd?ref=210" class="grey-link margin-left">Klub Gwiazd</a>
+			</div>
+			<div class="header-menu-item" id="pw-counter">
+             	<span id="header-pw-counter"></span>
+				<a href="/wiadomosci/in"><span class="sprites ico-message-big"></span></a> <a href="/wiadomosci/in" class="grey-link margin-left">Wiadomości</a>
+			</div>
+			<div class="header-menu-item" id="header-menu-avatar">
+     			<span id="header-profile-counter"></span>
+				<div class="header-menu-avatar"></div>
+				<span id="header-menu-avatar-arrow">▼</span>
+				<div id="header-menu-dropdown">
+					<a href="/profil/" class="header-menu-profile-link">Mój profil</a>
+					<a href="/ustawienia">Ustawienia</a>
+					<a href="javascript:void(null);" onclick="$('#logout').submit();">Wyloguj						<form id="logout" method="post" action="/wyloguj">
+							<input type="hidden" name="logout" value="1"/>
+						</form>
+					</a>
+				</div>
+			</div>
+		</script>
+	
+	<script type="text/javascript">if (typeof(headerMenu) === "function") headerMenu();</script>	<a id="header-logo" href="/">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 123.9 36.8">
+	<title>Fotka</title>
+	<g id="logo_fotka">
+		<linearGradient id="letter_f" gradientUnits="userSpaceOnUse" x1="59.2971" y1="5.7215" x2="59.2971" y2="33.0486">
+			<stop offset="0" stop-color="#909090"/>
+			<stop offset="1" stop-color="#6b6b6b"/>
+		</linearGradient>
+		<path d="M64.7 11.4v-.3h-3.6c.5-2.5 1.5-3.7 3.1-3.7.6 0 1.1.2 1.7.4l.2.1.1-.2.5-2.1v-.2l-.2-.1c-.7-.3-1.4-.5-2.2-.5-3.5 0-5.8 2.1-6.7 6.3h-2.2v.2l-.3 1.9v.3h2.2l-2.6 14.2c-.2.7-.5 1.4-1.1 1.9-.4.5-1 .9-1.7 1.1h-.2v.2l.3 1.7v.2h.2c1.4-.1 2.8-.7 3.9-1.6 1.1-.9 1.8-2.1 2-3.4l2.5-14.3h3.7v-.2l.4-1.9z" fill="url(#letter_f)"/>
+		<linearGradient id="letter_o" gradientUnits="userSpaceOnUse" x1="72.0346" y1="5.7215" x2="72.0346" y2="33.0486">
+			<stop offset="0" stop-color="#909090"/>
+			<stop offset="1" stop-color="#6b6b6b"/>
+		</linearGradient>
+		<path d="M73.5 10.8c-2.5 0-4.9 1.1-6.5 3-1.7 2-2.6 4.6-2.5 7.2-.1 1.7.5 3.3 1.6 4.5 1.2 1.1 2.9 1.7 4.5 1.6 1.8 0 3.6-.5 5.1-1.6 1.4-1 2.4-2.4 3-4.1.6-1.5.9-3.1.9-4.7.1-1.6-.5-3.2-1.6-4.5-1.2-.9-2.9-1.5-4.5-1.4zM71 24.5c-2.1 0-3.1-1.2-3.1-3.7 0-1.1.2-2.3.6-3.3.3-1.1 1-2.1 1.8-2.9.8-.7 1.8-1.1 2.8-1.1 2.1 0 3.1 1.1 3.1 3.5 0 1.9-.5 3.7-1.4 5.3-.8 1.4-2.2 2.2-3.8 2.2z" fill="url(#letter_o)"/>
+		<linearGradient id="letter_t" gradientUnits="userSpaceOnUse" x1="87.3553" y1="5.7215" x2="87.3553" y2="33.0486">
+			<stop offset="0" stop-color="#909090"/>
+			<stop offset="1" stop-color="#6b6b6b"/>
+		</linearGradient>
+		<path d="M89.1 7l.1-.4-.4.1-3.2 1.2h-.1V8l-.6 3H83v.2l-.5 2.1-.1.3h1.8L82.4 22c-.1.3-.1.7-.1 1-.1 1.1.3 2.1 1 2.9.7.7 1.7 1.1 2.8 1.1 1.3.1 2.7-.1 4-.4l.1-.1v-.2l.1-2.4v-.4l-.3.4c-.7.3-1.5.5-2.3.5h-.6c-.9-.1-1.6-1-1.5-2 0-.4.1-.9.2-1.3l1.6-7.4h4.3v-.2l.5-2.2.1-.3H88l1.1-4z" fill="url(#letter_t)"/>
+		<linearGradient id="letter_k" gradientUnits="userSpaceOnUse" x1="100.1986" y1="5.7215" x2="100.1986" y2="33.0486">
+			<stop offset="0" stop-color="#909090"/>
+			<stop offset="1" stop-color="#6b6b6b"/>
+		</linearGradient>
+		<path d="M101 18.4c2.4-2.2 4.3-4.1 5.9-5.8l.2-.2-.2-.1-1.9-1.6-.2-.2-.2.2c-1.9 2.3-4 4.4-6.3 6.3l1.9-11.9v-.3H97V5l-3.7 21.6v.3h3.3v-.2l1-5.8.8-.7 4.7 6.6.1.1h3.9l-.3-.4-5.8-8.1z" fill="url(#letter_k)"/>
+		<linearGradient id="letter_a" gradientUnits="userSpaceOnUse" x1="116.3331" y1="5.7215" x2="116.3331" y2="33.0486">
+			<stop offset="0" stop-color="#909090"/>
+			<stop offset="1" stop-color="#6b6b6b"/>
+		</linearGradient>
+		<path d="M123.8 12.3v-.1l-.1-.1c-1.1-.9-3-1.3-5.6-1.3-2.7 0-5.2 1.2-6.8 3.3-1.7 2.2-2.6 4.9-2.6 7.6-.1 1.5.4 2.9 1.4 4 1 1 2.4 1.5 3.8 1.4 1 0 2-.2 3-.5.7-.2 1.3-.6 1.9-1.1.1.4.2.8.4 1.2l.1.1h3.3l-.1-.3c-.5-1.3-.7-2.7-.7-4.1 0-.4 0-.9.1-1.3l1.9-8.8zm-6 1.2c1.7 0 2.2.3 2.4.4l-1.2 5.5c-.3 1.3-.9 2.6-1.7 3.7-.6.8-1.5 1.3-2.6 1.4-1.7 0-2.6-.9-2.6-2.8-.1-2.1.5-4.2 1.7-5.9 1-1.4 2.4-2.2 4-2.3z" fill="url(#letter_a)"/>
+		<g id="eye_cloud">
+			<linearGradient id="blue_cloud" gradientUnits="userSpaceOnUse" x1="21.245" x2="21.245" y2="35.4831">
+				<stop offset="0" stop-color="#5cb0d2"/>
+				<stop offset="1" stop-color="#4094c0"/>
+			</linearGradient>
+			<path d="M40.5 6.2C37.7 1.6 33.1 0 21.2 0S4.6 1.6 2 6.2-.8 21.5 2 26.7c5.5 8.8 14.8 3.4 32.9 10.1.7.3.4-.5.3-.8-1.1-1.9-.8-4 2.1-5.9 4.5-3.1 5.2-8.2 5.2-13.6 0-3.9-.8-8.3-2-10.3z" fill="url(#blue_cloud)"/>
+			<path d="M21.2 7c-5.1-.1-9.4 4.1-9.5 9.5.1 5.3 4.3 9.5 9.5 9.5 5.1.1 9.4-4.1 9.5-9.5-.1-5.4-4.3-9.6-9.5-9.5z" fill="#fff"/>
+			<circle cx="21.2" cy="16.4" r="7" opacity=".9" fill="gray"/>
+			<circle cx="24.6" cy="13.4" r="3" fill="#fff"/>
+		</g>
+	</g>
+</svg>	</a>
+	</div>
+</div>
+
+<div id="mobile-navigation">
+	<div id="mobile-header" class="clearfix">
+					<a id="mobile-header-button-menu"
+			   class="sprites-mobile mobile-header-button mobile-badge"></a>
+			<script type="text/javascript">
+				if (typeof(_currentUser) !== "undefined" && typeof(_currentUser.counters) !== 'undefined') {
+					var totalCounter = (_currentUser.counters.views + _currentUser.counters.votes + _currentUser.counters.decisions + _currentUser.counters.notifications);
+					if (totalCounter > 0) {
+						$("#mobile-header-button-menu").html(NewPillWidget((totalCounter > 99) ? "99+" : totalCounter, 'red', false));
+						if (totalCounter > 99) {
+							$("#mobile-header-button-menu .new-pill-widget .new-pill-widget-value").css('left', '18px');
+
+						}
+					}
+				}
+                </script>
+
+			<a href="/najnowsze" id="mobile-header-button-latest" class="sprites-mobile mobile-button mobile-header-button "></a>
+							<a href="/" id="mobile-header-button-yesno" class="sprites-mobile mobile-button mobile-header-button"></a>
+						<a href="/wiadomosci/talk" id="mobile-header-button-messages" class="sprites-mobile mobile-button mobile-header-button mobile-badge "></a>
+							<script type="text/javascript">
+					if(typeof(_currentUser) !== "undefined" && typeof(_currentUser.counters) !== 'undefined' && _currentUser.counters.messages > 0) {
+						$("#mobile-header-button-messages").html(NewPillWidget(_currentUser.counters.messages, 'red', false));
+					}
+				</script>
+						</div>
+	<div id="mobile-menu" class="newChromeHeight">
+		<div class="mobile-menu-row">
+			<a href="" class="mobile-button mobile-menu-item mobile-menu-item-light" id="mobile-menu-item-profile">
+				<span class="shadowed-avatar av-32 mobile-menu-item-avatar">
+					<img id="mobile-menu-item-avatar-img" src="" alt="Awatar" />
+				</span>
+				<span id="mobile-menu-item-login"></span>
+			</a>
+
+			<a href="/ustawienia" class="mobile-button mobile-menu-item" id="mobile-menu-item-settings">
+				<span class="mobile-menu-item-ico-container">
+					<span id="mobile-menu-item-ico-settings" class="sprites-mobile mobile-menu-item-ico"></span>			
+				</span>
+			</a>
+		</div>
+		<a href="/powiadomienia" id="mobile-menu-item-notifications" class="mobile-button mobile-menu-item">
+			<span class="mobile-menu-item-ico-container">
+				<span id="mobile-menu-item-ico-notifications" class="sprites-mobile mobile-menu-item-ico"></span>
+			</span>Powiadomienia
+		</a>
+		<a href="/podgladacz" id="mobile-menu-item-viewers" class="mobile-button mobile-menu-item">
+			<span class="mobile-menu-item-ico-container">
+				<span id="mobile-menu-item-ico-viewers" class="sprites-mobile mobile-menu-item-ico"></span>
+			</span>Podglądacz
+		</a>
+		<a href="/glosy/taknie" id="mobile-menu-item-decisions" class="mobile-button mobile-menu-item">
+			<span class="mobile-menu-item-ico-container">
+				<span id="mobile-menu-item-ico-decisions" class="sprites-mobile mobile-menu-item-ico"></span>
+			</span>Tak • Nie
+		</a>
+		<a href="/glosy" id="mobile-menu-item-votes" class="mobile-button mobile-menu-item">
+			<span class="mobile-menu-item-ico-container">
+				<span id="mobile-menu-item-ico-votes" class="sprites-mobile mobile-menu-item-ico"></span>
+			</span>Głosy
+		</a>
+		<a href="/czat" id="mobile-menu-item-chat" class="mobile-button mobile-menu-item">
+			<span class="mobile-menu-item-ico-container">
+				<span id="mobile-menu-item-ico-chat" class="sprites-mobile mobile-menu-item-ico"></span>
+			</span>Czat
+		</a>
+		<a href="/online" id="mobile-menu-item-online" class="mobile-button mobile-menu-item">
+			<span class="mobile-menu-item-ico-container">
+				<span id="mobile-menu-item-ico-online" class="sprites-mobile mobile-menu-item-ico"></span>
+			</span>Online
+		</a>
+		<a href="/kamerki" id="mobile-menu-item-cams" class="mobile-button mobile-menu-item">
+			<span class="mobile-menu-item-ico-container">
+				<span id="mobile-menu-item-ico-cams" class="sprites-mobile mobile-menu-item-ico"></span>
+			</span>Kamerki
+		</a>
+		<a href="/szukaj" id="mobile-menu-item-search" class="mobile-button mobile-menu-item">
+			<span class="mobile-menu-item-ico-container">
+				<span id="mobile-menu-item-ico-search" class="sprites-mobile mobile-menu-item-ico"></span>
+			</span>Szukaj
+		</a>
+		<a href="/ranking" id="mobile-menu-item-rank" class="mobile-button mobile-menu-item">
+			<span class="mobile-menu-item-ico-container">
+				<span id="mobile-menu-item-ico-rank" class="sprites-mobile mobile-menu-item-ico"></span>
+			</span>Ranking
+		</a>
+		<a href="/forum" id="mobile-menu-item-forum" class="mobile-button mobile-menu-item">
+			<span class="mobile-menu-item-ico-container">
+				<span id="mobile-menu-item-ico-forum" class="sprites-mobile mobile-menu-item-ico"></span>
+			</span>Forum
+		</a>
+		<a href="/gry" id="mobile-menu-item-games" class="mobile-button mobile-menu-item">
+			<span class="mobile-menu-item-ico-container">
+				<span id="mobile-menu-item-ico-games" class="sprites-mobile mobile-menu-item-ico"></span>
+			</span>Gry
+		</a>
+		<a href="/klubgwiazd?ref=210" id="mobile-menu-item-stars-club" class="mobile-button mobile-menu-item">
+			<span class="mobile-menu-item-ico-container">
+				<span id="mobile-menu-item-ico-stars-club" class="sprites-mobile mobile-menu-item-ico"></span>
+			</span>Klub Gwiazd
+		</a>
+	</div>
+</div>
+
+<div id="menu" class="sprites-menu">
+	<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+		<li id="menu-nowe" title="Nowe zdjęcia">
+			<a href="/najnowsze" itemprop="url">
+				<span class="sprites menu-item"></span>
+				<span class="menu-item-text" itemprop="name">Nowe</span>
+			</a>
+			<div class="sprites menu-indicator"></div>
+		</li>
+		<li id="menu-online" title="Osoby online: 8174">
+			<a href="/online" alt="Online" itemprop="url">
+				<span class="sprites menu-item"></span>
+				<span class="menu-item-text" itemprop="name">Online</span>
+			</a>
+			<div class="sprites menu-indicator"></div>
+		</li>
+		<li id="menu-cams" title="Kamerki">
+			<a href="/kamerki" alt="Kamerki" itemprop="url">
+				<span class="sprites menu-item"></span>
+				<span class="menu-item-text" itemprop="name">Kamerki</span>
+			</a>
+			<div class="sprites menu-indicator"></div>
+		</li>
+		<li id="menu-search" title="Szukaj">
+			<a href="/szukaj" alt="Szukaj" itemprop="url">
+				<span class="sprites menu-item"></span>
+				<span class="menu-item-text" itemprop="name">Szukaj</span>
+			</a>
+			<div class="sprites menu-indicator"></div>
+		</li>
+		<li id="menu-ranking" title="Ranking">
+			<a href="/ranking" alt="Ranking" itemprop="url">
+				<span class="sprites menu-item"></span>
+				<span class="menu-item-text" itemprop="name">Ranking</span>
+			</a>
+			<div class="sprites menu-indicator"></div>
+		</li>
+		<li id="menu-forum" title="Forum">
+			<a href="/forum" alt="Forum" itemprop="url">
+				<span class="sprites menu-item"></span>
+				<span class="menu-item-text" itemprop="name">Forum</span>
+			</a>
+			<div class="sprites menu-indicator"></div>
+		</li>
+		<li id="menu-chat" title="Czat">
+			<a href="/czat/" itemprop="url">
+				<span class="sprites menu-item"></span>
+				<span class="menu-item-text" itemprop="name">Czat</span>
+			</a>
+			<div class="sprites menu-indicator"></div>
+		</li>
+		<li id="menu-games" title="Gry">
+			<a href="/gry" itemprop="url">
+				<span class="sprites menu-item"></span>
+				<span class="menu-item-text" itemprop="name">Gry</span>
+			</a>
+			<div class="sprites menu-indicator"></div>
+		</li>
+	</ul>
+</div>
+<script src="https://fotka.com/js/advertisement.0.js"></script>
+
+
+	<script type="text/javascript">
+		var _showBilboard = ('undefined' !== typeof(_currentUser) && (false === _currentUser.isPro || _currentUser.forceAds === true)) || ('undefined' === typeof(_currentUser) && ('undefined' !== typeof(ad_zalogowany_pro) && 0 === ad_zalogowany_pro));
+		var billboardId = 'brd_';
+	</script>
+    
+			<!-- billboard_konto -->
+		<script type="text/javascript">
+			if ($(window).width() >= 768 && _showBilboard) {
+				billboardId += 'cams';
+				var placementId = 752;
+			}
+		</script>
+	
+	<script type="text/javascript" src="https://fotka.com/js/detektor.0.js"></script>
+	<script type="text/javascript" src="https://fotka.com/js/brd.1549380436.js"></script>
+    
+    <script type="text/javascript">
+		var cookie_hand = getCookie("one_min_hide_ads");
+		if ('undefined' !== typeof(billboardId) && 'undefined' !== typeof(placementId) && (_showBilboard) && ('object' !== typeof(window._currentProfile) || (('object' === typeof(window._currentProfile) && false === window._currentProfile.isSpecial) && 'object' === typeof(_currentUser) && _currentUser.id !== _currentProfile.id))) {
+			document.write('<div class="html brd brd_top" id="' + billboardId + '" ');
+
+			if ((cookie_hand == null || 'brd_container' !== billboardId) || _currentProfile.photosAccepted) {
+				document.write('style="diplay:block !important; min-height:205px;">');
+				document.write('<div class="UkryjReklamy adsbox" style="position:absolute;display:none;"><a class="vote-box-link vote_pointer" onclick="SrebrneAlert.show(132);" title="Ukryj reklamy"><img class="sprites ico-close-ad" src="' + img_url + 'blank.gif" alt="Ukryj reklamy"/></a></div>');
+				document.write('<div class="spolecznoscinet' + ('brd_container' === billboardId ? ' spolecznoscinet_onempty' : '') + '" ' + ('brd_container' === billboardId ? 'snet-disabled="snet-disabled"' : '') + ' id="spolecznosci-' + placementId + '" onad="showCloseBox(' + placementId + ');" onnoad="hideCloseBox(' + placementId + ');" onempty="hideBillboardTop(' + placementId + ');"></div>');
+			} else if (typeof(no_adblock) === "undefined") {
+				document.write('style="diplay:block !important; min-height:205px;">');
+			} else {
+				document.write('>');
+			}
+			document.write('</div>');
+
+			if (typeof(no_adblock) === "undefined") {
+				if ($(window).width() >= 768) {
+					randy = Math.floor(Math.random() * 2);
+					if ($('.brd_top .spolecznoscinet').empty()) {
+						brd(randy);
+					}
+					$('.UkryjReklamy').remove()
+				}
+
+				if ($(window).width() >= 1320 && $(window).height() >= 600) {
+					prepareCriteo(function () {
+						criteoReady = true;
+					});
+					prepareContainers();
+					prepareDbb();
+				}
+			}
+		}
+            </script>
+    
+	
+	<div id="content">
+
+
+        							<div id="room-template-placeholder">
+<div id="profile-background">
+<div id="room-content">
+<div id="LeftColumn">
+<div id="stream_box" class="shadow-box" style="overflow:visible;">
+<div id="StreamContainer"></div>
+<h2>
+<div class="avatar-container av-48">
+<span class="shadowed-avatar av-48"><img alt="Niezalogowany" class="av32" src="https://fotka.com/img/users/av/k_64_1.png"></span>
+</div>
+<span id="room_name"></span><span id="room_title"></span>
+</h2>
+<div style="clear:both;"></div>
+<div id="ShareSection"></div>
+</div>
+</div>
+<div id="RightColumn">
+<div id="ChatMessage" class="ChatMessage" style="position:relative;">
+<div id="chat-logins-suggestion" class="shadow-box hidden"></div>
+<div class="chat_message_av av-32">
+<img alt="Niezalogowany" class="av32" src="https://fotka.com/img/users/av/k_64_1.png">
+</div>
+<div class="CommentsItemBox">
+<div class="CommentsItemArrow" style="left:-3px;top:9px;"></div>
+<div class="CommentsItemArrowBorder"></div>
+<div id="msg" class="shadow-box"></div>
+</div>
+<div style="clear:both"></div>
+</div>
+<div id="chat" style="position:relative;">
+<div id="ChatMessages" style="clear:both;">
+<div class="chat_message_template"></div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</div>
+
+<script type="text/template" id="room-host-template">
+<div id="profile-background" <%= styles.defaultStyles ? 'class="profile-custom-styles"' : '' %>>
+<div id="room-content">
+<div id="LeftColumn">
+<div class="shadow-box" style="overflow:visible;">
+
+<table id="CameraTable">
+<tbody>
+<tr>
+<td style="width:50px;">Kamera</td>
+<td style="text-align:right;"><select id="CameraSelect"></select></td>
+</tr>
+</tbody>
+</table>
+
+
+
+<div class="container" id="StreamContainer">
+<div id="live"><div id="IcoFotkatvDot" class="sprites"></div><span>NA ŻYWO</span></div>
+                    <div id="swfContainer">
+                        <object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,16,0" width="500" height="375">
+                            <param name="movie" value="https://fotka.com/img/swf/FTVPublisher.27.swf">
+                            <param name="quality" value="high">
+                            <param name="play" value="true">
+                            <param name="allowScriptAccess" value="always">
+                            <param name="allowfullscreen" value="false">
+                            <param name="wmode" value="transparent">
+                            <param name="flashvars" value="statsInterval=60000">
+                            <param name="id" value="ftv_czat">
+
+                            <embed  flashvars="statsInterval=60000" id="ftv_czat" allowfullscreen="false" wmode="transparent" allowScriptAccess="always" src="https://fotka.com/img/swf/FTVPublisher.24.swf" width="500" height="375" play="true" loop="false" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
+                        </object>
+                    </div>
+
+                    <div id="microphoneContainer">
+                        <object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,16,0" width="100" height="100">
+                            <param name="movie" value="https://fotka.com/img/swf/Mikrofon.24.swf">
+                            <param name="quality" value="high">
+                            <param name="play" value="true">
+                            <param name="allowScriptAccess" value="always">
+                            <param name="allowfullscreen" value="false">
+                            <param name="wmode" value="transparent">
+                            <param name="id" value="swfContainerMic">
+
+                            <embed id="swfContainerMic" allowfullscreen="false" wmode="transparent" allowScriptAccess="always" src="https://fotka.com/img/swf/Mikrofon.22.swf" width="100" height="100" play="true" loop="false" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
+                        </object>
+                    </div>
+
+<div id="TooltipContainer">
+<div id="TooltipArrowTop"></div>
+<div id="TooltipArrowBorderTop"></div>
+<div id="TooltipArrowBottom"></div>
+<div id="TooltipArrowBorderBottom"></div>
+<div id="TooltipClose" class="sprites ico-delete"></div>
+<div id="TooltipBody"></div>
+</div>
+</div>
+
+<a id="fbPublish" href="javascript:void(null);"></a>
+<div style="clear:both"></div>
+<div class="container" id="capture_miniature" style="text-align:center">
+<div class="tabs new_tabs">
+<div id="tab_title" class="tab enabled"><div class="separator"></div><div class="tab-caption">Tytuł</div></div>
+<div id="tab_stats" class="tab"><div class="separator"></div><div class="tab-caption">Statystyka</div></div>
+<div id="tab_stream" class="tab"><div class="separator"></div><div class="tab-caption">Ustawienia transmisji</div></div>
+<div style="clear:both;"></div>
+</div>
+<div id="tab_title_content" class="tabs_content" style="clear:both;">
+<div id="edit_description" style="margin-top:10px;">
+Tytuł pokoju<br />
+
+<% if (currentRoom.title === null || currentRoom.title === '') { %>
+<input id="DescriptionText" type="text"/>
+<% } else { %>
+<input id="DescriptionText" type="text" value="<%= currentRoom.title %>"/>
+<% } %>
+<a id="DescriptionSave" class="button disabled">Zapisz</a>
+
+<div class="clear"></div>
+</div>
+</div>
+<div id="tab_stats_content" class="tabs_content" style="clear:both;display:none;">
+<table id="fotkatv_stats_table" class="host">
+<tbody>
+<tr class="header">
+<td></td>
+<td>Rekord widzów</td>
+<td>Czas transmisji</td>
+</tr>
+
+<tr>
+<td>24 godziny</td>
+<td><b><%= currentRoom.stats.one_day !== null ? currentRoom.stats.one_day.max : 0 %></b> (<%= getDate(currentRoom.stats.one_day.when) %>)</td>
+<td><%= currentRoom.stats.one_day.time !== null ? currentRoom.stats.one_day.time + ' godz.' : '-' %></td>
+</tr>
+<tr>
+<td>Tydzień</td>
+<td><b><%= currentRoom.stats.seven_days.max !== null ? currentRoom.stats.seven_days.max : 0 %></b> (<%= getDate(currentRoom.stats.seven_days.when) %>)</td>
+<td><%= currentRoom.stats.seven_days.time ? currentRoom.stats.seven_days.time + ' godz.' : '-' %></td>
+</tr>
+<tr>
+<td style="">Od początku</td>
+<td style=""><b><%= currentRoom.stats.all_days.max !== null ? currentRoom.stats.all_days.max : 0 %></b> (<%= getDate(currentRoom.stats.all_days.when) %>)</td>
+<td><%= currentRoom.stats.all_days.time ? currentRoom.stats.all_days.time + ' godz.' : '-' %></td>
+</tr>
+</tbody>
+</table>
+
+<br/>
+<div>Statystyka połączenia:</div>
+<table>
+<tr><td><b>Low:</b></td><td id="cams_stats"></td><td id="mic_stats"></td><td id="latency_stats"></td></tr>
+<tr><td><b>High:</b></td><td id="h_cams_stats"></td><td id="h_mic_stats"></td><td id="h_latency_stats"></td></tr>
+</table>
+
+</div>
+<div id="tab_stream_content" class="tabs_content" style="clear:both;display:none;">
+<div>Jakość dźwięku (Wyższa jakość może powodować pogorszenie jakości obrazu na słabszych łączach):</div>
+<input type="radio" name="streamSettings" id="audioMed" value="med" checked="checked"/><label for="audioMed">Normalna - mowa</label><br/>
+<input type="radio" name="streamSettings" id="audioHi" value="hi"/><label for="audioHi">Podwyższona - dla muzyki</label>
+
+<br/><br/>
+<div>Pokój dla:</div>
+<input type="radio" name="streamAviabiality" id="streamAll" value="all" <%= (currentRoom.for_adults === "no") ? "checked" : "" %> /><label for="streamAll">Wszystkich</label><br/>
+<input type="radio" name="streamAviabiality" id="streamLogged" value="logged"  <%= (currentRoom.for_adults === "logged") ? "checked" : "" %>  /><label for="streamLogged">Zalogowanych</label><br/>
+
+<% if (!blockChangepresmission) { %>
+<input type="radio" name="streamAviabiality" id="stream18" value="18"  <%= (currentRoom.for_adults === "yes") ? "checked" : "" %> /><label for="stream18">18+</label>
+<% } %>
+</div>
+</div>
+</div>
+<div id="chat_users" style="margin-top:10px;">
+<div class="user_template">
+<div class="user" style="position:relative;" id="userslist_user_">
+<img alt="login" src="https://fotka.com/img/blank.gif"/>
+</div>
+</div>
+<div class="shadow-box">
+<h4 id="viewers_counter_host">Widzowie (<span>-</span>)</h4>
+<span id="ViewersLoading">Pobieranie listy widzów...</span>
+<span class="user_list_avatars"></span>
+<span class="user_list_noavatars"></span>
+<span class="nouser_list"></div>
+</div>
+</div></div>
+
+<div id="RightColumn">
+
+<style type="text/css">
+    #chat-logins-suggestion {
+        position: absolute;
+        bottom: 37px;
+        left: 45px;
+        right: 20px;
+        top: auto;
+        opacity: 1;
+        -webkit-transition: opacity 200ms ease-in;
+        display: block;
+        background: #333;
+        background: rgb(238, 238, 238);
+        color: #666;
+        text-shadow: none;
+        border: 1px solid #ccc;
+        z-index:100;
+    }
+
+    #chat-logins-suggestion.hidden {
+        filter: alpha(opacity=0);
+        opacity: 0;
+        -webkit-transition: opacity 200ms ease-out;
+    }
+
+    #chat-logins-suggestion .login{
+        cursor: pointer;
+        background: #4996ba;
+        display: inline-block;
+        padding:2px 6px;
+        border-radius: 3px;
+        text-shadow: none;
+        color:#fff;
+        margin: 2px 4px 2px 0;
+    }
+
+</style>
+
+<div id="ChatMessage" class="ChatMessage" style="position:relative;">
+    <div id="chat-logins-suggestion" class="shadow-box hidden"></div>
+    <div class="chat_message_av av-32">
+<% if (isLoggedIn()) { %>
+<%= Avatar(_currentUser.login, _currentUser.node.av, _currentUser.gwiazda, 32) %>
+<% } else { %>
+<img alt="Niezalogowany" class="av32" src="https://fotka.com/img/users/av/k_64_1.png"></a>
+<% } %>
+</div>
+<div class="CommentsItemBox">
+<div class="CommentsItemArrow" style="left:-3px;top:9px;"></div>
+<div class="CommentsItemArrowBorder"></div>
+
+<% if (isLoggedIn() && noacl == false && allowWritingComments) { %>
+<textarea id="msg" class="shadow-box" rows="1" cols="10" disabled="disabled"><%= dummyText %></textarea>
+<% } else { %>
+<div id="msg" class="shadow-box"><%= isLoggedIn() && !allowWritingComments ? '<i><a style="color: #4996BA !important;" href="/dodaj_fotki/">Dodaj zdjęcia na swój profil</a>, aby komentować fotki innych użytkowników.</i>' : dummyText %></div>
+<% } %>
+</div>
+<div style="clear:both"></div>
+</div>
+<div id="ChatMessages" style="clear:both;">
+<div class="chat_message_template">
+<div class="ChatMessage" style="position:relative;">
+<div class="chat_message_av av-32"></div>
+<div class="CommentsItemBox">
+<div class="CommentsItemArrow"></div>
+<div class="CommentsItemArrowBorder"></div>
+<div class="shadow-box">
+<div class="container">
+<div class="OptionsArrowBorder">
+<% if (mode == 'host') { %>
+<div class="options" style="width:<%= _isMod() ? '230px': '190px' %>;">
+<% if (_isMod()) { %><span class="option ban">Banuj</span> <span class="Icos IcoSeparator"></span> <% } %><span class="option add_to_black">Zablokuj</span> <span class="Icos IcoSeparator"></span> <span class="option kick">Wyproś z pokoju</span>
+</div>
+<% } else if (_isMod()) { %>
+<div class="options" style="width:265px;">
+<span class="option ban">Banuj</span><span style="float:left;margin-left:5px;margin-right:5px"> | </span><span class="option kick">Wyproś z pokoju</span><span style="float:left"> | </span><span style="float:left;margin-left:5px;margin-right:5px"> | </span><span class="option mute">Wycisz osobę</span>
+</div>
+<% } else { %>
+<div class="options" style="width:100px;">
+<span class="option cc">Wycisz osobę</span>
+</div>
+<% } %>
+</div>
+<div class="chat_message_login"><a href=""></a>:</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div></div>
+<div style="clear:both"></div>
+</div>
+</div>
+<ul id="ContextMenuHost" class="ContextMenu">
+<li class="ContextMenuHeader"></li>
+<% if (_isMod()) { %>
+<li><a id="ContextMenuAction-sendMessage" href="javascript:void(0);" class="ContextMenuAction">Wiadomość</a></li>
+<li><a id="ContextMenuAction-showInfo" href="javascript:void(0);" class="ContextMenuAction">Info</a></li>
+<li><a id="addBan" href="javascript:void(0)" class="ContextMenuAction">Banuj</a></li>
+<% if (mode == 'host') { %>
+<li><a id="addToBlacklist" href="javascript:void(0)" class="ContextMenuAction">Zablokuj</a></li>
+<% } %>
+<% } else { %>
+<li><a id="addToBlacklist" href="javascript:void(0)" class="ContextMenuAction">Zablokuj</a></li>
+<% } %>
+<% if (mode == 'host' || _isMod()) { %>
+<li><a id="kickUser" href="javascript:void(0)" class="ContextMenuAction">Wyproś z pokoju</a></li>
+<% } %>
+<li><a id="wwwUser" href="javascript:void(0)" target="_blank" class="ContextMenuAction">Przejdź do profilu</a></li>
+</ul><div style="clear:both;"></div>
+<div id="fb-root"></div>
+</div>
+</div>
+</script>
+<script type="text/javascript" src="https://pro.hit.gemius.pl/gstream.js"></script>
+<script type="text/javascript">
+var xml_url ='';
+var xml_data ='';
+</script>
+
+<script type="text/template" id="room-view-template">
+<div id="RoomsList" class="shadow-box">
+<% if (typeof (rooms) !== "undefined") { %>
+<% for (var room in rooms) { %>
+<%= renderRoom(rooms[room]) %>
+<% } %>
+<% } %>
+</div>
+<div id="profile-background" <%= styles.defaultStyles ? 'class="profile-custom-styles"' : '' %>>
+<div id="room-content">
+<div id="LeftColumn">
+<div id="stream_box" class="shadow-box" style="overflow:visible;">
+<% if (!isPro) { %>
+<div id="preroll_container"></div>
+<% } %>
+
+<% if (currentRoom.is_online == "no") { %>
+<div id="StreamContainer">
+<div id="loading"><span>Ta osoba nie prowadzi aktualnie transmisji</span></div>
+<div id="user_background"><img src="<%= currentRoom.av_500 %>" width="500px" height="375px" /></div>
+</div>
+<% } else { %>
+<div id="videoStreamContainer">
+<div id='VideoContainer'>
+                            <div id='flowplayer' style="width:100%;height:100%"></div>
+                        </div>
+<div id='infoCams'></div>
+</div>
+<% if (isIPad) { %>
+<div style="text-align:center;">Na urządzeniach przenośnych dziwięk nie jest obslugiwany.</div>
+<% } %>
+<% } %>
+
+<h2>
+<%= Avatar(currentRoom.owner_data.login, currentRoom.owner_data.av_64, currentRoom.owner_data.gwiazda, 48) %>
+
+<span id="room_name"><%= currentRoom.name.trim() %></span><span id="room_title"><% if (currentRoom.title !== '') { %><b>:</b> <%= stripTags(currentRoom.title) %><% } %></span>
+
+<% if (_isMod()) { %>
+<a id="RemoveTitle" class="Icos IcoRemove"></a>
+<% } %>
+</h2>
+
+<% if (currentRoom.is_owner_in_room == 'no' && typeof (currentRoom.last_transmission_time) !== "undefined" && currentRoom.last_transmission_time != '0000-00-00 00:00:00' && typeof (currentRoom.last_transmission_time_stamp) !== "undefined") { %>
+<div class="lastTransmissionTime">Ostatnia transmisja:
+<%= currentRoom.last_transmission_time_stamp * 1000  < (new Date().getTime() - 5 * 60) ? get_date(currentRoom.last_transmission_time_stamp * 1000) : 'w ciągu ostatnich 5 minut' %>
+</div>
+<% } %>
+
+<div style="clear:both;"></div>
+
+<div id="ShareSection" <%= !styles.defaultStyles ? ' class="shadow-box"' : '' %>>
+<% if (leftGifts > 0) { %>
+<div id="sectionGift" class="show-menu ShareSectionItem">
+<div id="box_gifts" class="menu-box">
+<div id="add-wishes">
+<div style="height:40px;">Zrób <%= Login_str(currentRoom.owner_data.login, false, false, currentRoom.owner_data.gwiazda) %> niespodziankę i daj <%= currentRoom.owner_data.sex == 'k' ? 'jej' : 'mu' %> prezent!</div>
+<img style="margin:10px;cursor:pointer" id="currentGift" value="<%= randGift.prezent_id %>" src="https://fotka.com/img/p/prezenty/96/<%= randGift.prezent_id %>.png" onmouseover="infoBox.hover($(this), txtGift,'center')" onclick="infoToggle('add-wishes')" width="96" height="96" />
+<div class="action-info hidden">
+<textarea id="wishes" style="width:80%;font-size: 14px" cols="10" rows="5"></textarea>
+</div>
+</div>
+
+<div id="prezent_button" style="margin:1em 0;text-align:center;">
+<a href="javascript:void(null)" class="button userButton" style="color:#fff" onclick="giveGift()">Daj prezent</a>
+</div>
+
+<div>lub <a href="javascript:void(0);" class="rand_gifts">Losuj inny</a></div>
+
+<div class="sprites menu-box-arrow"></div>
+</div>
+<a href="javascript:void(0);" class="give_gifts" id="give_gifts"><span class="sprites ico-gift"></span><span class="ShareSectionItemLabel">Daj prezent (<span id="counter"><%= leftGifts %></span>)</span></a>
+</div>
+<% } %>
+
+<% if (showAddToFavourites) { %>
+<a id="ShareSectionItemFavourite" class="ShareSectionItem" href="javascript:void(null);"><span class="sprites ico-friend-add-<%= typeof (currentRoom.sex) !== "undefined" && currentRoom.sex == 'm' ? 'm' : 'f' %>"></span><span class="ShareSectionItemLabel">Dodaj do ulubionych</span></a>
+<% } %>
+
+<div id="ShareSectionFB" class="ShareSectionItem fb-like" data-href="http://www.fotka.pl<%= currentRoom.url %>" data-send="false" data-layout="button_count" data-width="50" data-show-faces="false" data-action="recommend"></div>
+
+<% if (isLoggedIn()) { %>
+<div id="ShareSectionMore" class="ShareSectionItem show-menu">
+<div id="ShareSectionMoreButton" class="sprites ico-more"></div>
+<div id="ShareSectionMoreMenu" class="menu-box">
+<div>
+<% if (showAddToFavourites) { %>
+<a id="ShareSectionMenuItemFavourite" class="menu-box-item" href="javascript:void(null);">
+<span class="menu-box-ico-container">
+<span class="sprites ico-friend-add-f"></span>
+</span>
+Dodaj do ulubionych
+</a>
+<% } %>
+
+<td><div class="Icos IcoSeparator"></div></td>
+
+<a id="ShareSectionMenuItemAbuse" class="menu-box-item zglos_pokoj" href="javascript:void(null);">
+<span class="menu-box-ico-container">
+<span class="sprites ico-abuse"></span>
+</span>
+Zgłoś nadużycie
+</a>
+</div>
+<div class="sprites menu-box-arrow"></div>
+</div>
+</div>
+
+<span id="zglosPokojAjaxIco" class="ajax16x16"></span>
+<% } %>
+
+<div style="clear:both;"></div>
+</div>
+</div>
+
+<% if (_isMod()) { %>
+<div class="clear"></div>
+<div style="margin-top:10px;" class="BoxHolder">
+<div class="Box BoxShadow" style="overflow:visible;">
+<div id="ModeratorsOptions">
+<table style="border-collapse: collapse;">
+<tbody>
+<tr>
+<td class="title">Moderacja:</td>
+<td><a id="ModerateRoomsAv" href="javascript:void(null);">Usuń miniaturkę</a></td>
+<td><div class="Icos IcoSeparator"></div></td>
+<td><a id="AddBan" href="javascript:void(null);">Banuj</a></td>
+<td><div class="Icos IcoSeparator"></div></td>
+<td><a id="ShowInfo" href="javascript:void(null);">Info</a></td>
+<td><div class="Icos IcoSeparator"></div></td>
+<% if (currentRoom.for_adults == 'yes') { %>
+<td id="Over18"><a href="javascript:void(null);">Pokój dla wszystkich</a></td>
+<% } else { %>
+<td id="Over18"><a href="javascript:void(null);">Pokój dla 18+</a></td>
+<% } %>
+<td><div class="Icos IcoSeparator"></div></td>
+<td><a id="ModeratorMessage" href="javascript:void(null);">Wiadomość</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<% } %>
+
+<% if (_isMod()) { %>
+<div id="chat_users" style="margin-top:10px;">
+<div class="user_template">
+<div class="user" style="position:relative;" id="userslist_user_">
+<img alt="login" src="https://fotka.com/img/blank.gif"/>
+</div>
+</div>
+<div class="shadow-box">
+<h4 id="viewers_counter_host">Widzowie (<span>-</span>)</h4>
+<span id="ViewersLoading">Pobieranie listy widzów...</span>
+<span class="user_list_avatars"></span>
+<span class="user_list_noavatars"></span>
+<span class="nouser_list"></div>
+</div>
+</div><% } %>
+</div>
+
+<div id="RightColumn">
+
+<style type="text/css">
+    #chat-logins-suggestion {
+        position: absolute;
+        bottom: 37px;
+        left: 45px;
+        right: 20px;
+        top: auto;
+        opacity: 1;
+        -webkit-transition: opacity 200ms ease-in;
+        display: block;
+        background: #333;
+        background: rgb(238, 238, 238);
+        color: #666;
+        text-shadow: none;
+        border: 1px solid #ccc;
+        z-index:100;
+    }
+
+    #chat-logins-suggestion.hidden {
+        filter: alpha(opacity=0);
+        opacity: 0;
+        -webkit-transition: opacity 200ms ease-out;
+    }
+
+    #chat-logins-suggestion .login{
+        cursor: pointer;
+        background: #4996ba;
+        display: inline-block;
+        padding:2px 6px;
+        border-radius: 3px;
+        text-shadow: none;
+        color:#fff;
+        margin: 2px 4px 2px 0;
+    }
+
+</style>
+
+<div id="ChatMessage" class="ChatMessage" style="position:relative;">
+    <div id="chat-logins-suggestion" class="shadow-box hidden"></div>
+    <div class="chat_message_av av-32">
+<% if (isLoggedIn()) { %>
+<%= Avatar(_currentUser.login, _currentUser.node.av, _currentUser.gwiazda, 32) %>
+<% } else { %>
+<img alt="Niezalogowany" class="av32" src="https://fotka.com/img/users/av/k_64_1.png"></a>
+<% } %>
+</div>
+<div class="CommentsItemBox">
+<div class="CommentsItemArrow" style="left:-3px;top:9px;"></div>
+<div class="CommentsItemArrowBorder"></div>
+
+<% if (isLoggedIn() && noacl == false && allowWritingComments) { %>
+<textarea id="msg" class="shadow-box" rows="1" cols="10" disabled="disabled"><%= dummyText %></textarea>
+<% } else { %>
+<div id="msg" class="shadow-box"><%= isLoggedIn() && !allowWritingComments ? '<i><a style="color: #4996BA !important;" href="/dodaj_fotki/">Dodaj zdjęcia na swój profil</a>, aby komentować fotki innych użytkowników.</i>' : dummyText %></div>
+<% } %>
+</div>
+<div style="clear:both"></div>
+</div>
+<div id="chat" style="position:relative;">
+<div id="ChatMessages" style="clear:both;">
+<div class="chat_message_template">
+<div class="ChatMessage" style="position:relative;">
+<div class="chat_message_av av-32"></div>
+<div class="CommentsItemBox">
+<div class="CommentsItemArrow"></div>
+<div class="CommentsItemArrowBorder"></div>
+<div class="shadow-box">
+<div class="container">
+<div class="OptionsArrowBorder">
+<% if (mode == 'host') { %>
+<div class="options" style="width:<%= _isMod() ? '230px': '190px' %>;">
+<% if (_isMod()) { %><span class="option ban">Banuj</span> <span class="Icos IcoSeparator"></span> <% } %><span class="option add_to_black">Zablokuj</span> <span class="Icos IcoSeparator"></span> <span class="option kick">Wyproś z pokoju</span>
+</div>
+<% } else if (_isMod()) { %>
+<div class="options" style="width:265px;">
+<span class="option ban">Banuj</span><span style="float:left;margin-left:5px;margin-right:5px"> | </span><span class="option kick">Wyproś z pokoju</span><span style="float:left"> | </span><span style="float:left;margin-left:5px;margin-right:5px"> | </span><span class="option mute">Wycisz osobę</span>
+</div>
+<% } else { %>
+<div class="options" style="width:100px;">
+<span class="option cc">Wycisz osobę</span>
+</div>
+<% } %>
+</div>
+<div class="chat_message_login"><a href=""></a>:</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div></div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div id="fb-root"></div>
+
+<% if (_isMod()) { %>
+<ul id="ContextMenuHost" class="ContextMenu">
+<li class="ContextMenuHeader"></li>
+<% if (_isMod()) { %>
+<li><a id="ContextMenuAction-sendMessage" href="javascript:void(0);" class="ContextMenuAction">Wiadomość</a></li>
+<li><a id="ContextMenuAction-showInfo" href="javascript:void(0);" class="ContextMenuAction">Info</a></li>
+<li><a id="addBan" href="javascript:void(0)" class="ContextMenuAction">Banuj</a></li>
+<% if (mode == 'host') { %>
+<li><a id="addToBlacklist" href="javascript:void(0)" class="ContextMenuAction">Zablokuj</a></li>
+<% } %>
+<% } else { %>
+<li><a id="addToBlacklist" href="javascript:void(0)" class="ContextMenuAction">Zablokuj</a></li>
+<% } %>
+<% if (mode == 'host' || _isMod()) { %>
+<li><a id="kickUser" href="javascript:void(0)" class="ContextMenuAction">Wyproś z pokoju</a></li>
+<% } %>
+<li><a id="wwwUser" href="javascript:void(0)" target="_blank" class="ContextMenuAction">Przejdź do profilu</a></li>
+</ul><% } %>
+
+<div class="clear"></div>
+</div>
+</div>
+</script>
+<script type="text/template" id="error-addedtoblacklist-template">
+    <div id="error-profile-message">
+        <div id="error-profile-leftColumn">
+            <div class="black-add-item">
+                <span class="sprites-srebrne ico-black-add"></span>
+            </div>
+            <img src="<%= data.av %>" alt="<%= data.login %>"/>
+        </div>
+        <div id="error-profile-centerColumn">
+            <div class="error-profile-box">
+                <div class="error-profile-box-container">
+                    <h1>Nie możesz oglądać tej transmisji, ponieważ jesteś na mojej czarnej liście</h1>
+                    <div class="error-profile-box-container-options">
+                        <a id="error-profile-box-container-options-block"  class="button" href="/kamerki">Przejdź do listy transmisji</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/template" id="error-agerestriction-template">
+<h2 style="text-align: center;">Dostęp do serwisu został zablokowany dla osób, które nie ukończyly 15. roku życia.</h2>
+</script>
+<script type="text/template" id="error-error-template">
+<div class="page_error"><%= content %></div>
+<% if (typeof (message) !== "undefined" && message !== null ) { %>
+<pre><%= message %></pre>
+<% } %>
+</script>
+<script type="text/template" id="error-noacl-template">
+<h2 style="text-align: center; margin-top:50px;"><a href="/weryfikacja">Zweryfikuj</a> swoje konto aby móc nadawać.</h2>
+</script>
+<script type="text/template" id="error-noage-template">
+<h2 style="text-align: center; margin-top:50px;">Prosimy o <a href="<%= isLoggedIn() ? '/profil/' + _currentUser.login + '/edycja/podstawowe' : '/zaloguj/back_url=/kamerka/' + data.currentRoom.name %>">ustawienie</a> poprawnej daty urodzenia, w przeciwnym razie dostęp do transmisji będzie niedostepny.</h2>
+</script>
+<script type="text/template" id="error-notverified-template">
+<h2 style="text-align: center; margin-top:50px;">Aby oglądać transmisję, <a href="/weryfikacja">zweryfikuj</a> swoje konto.</h2>
+</script>
+<script type="text/template" id="error-passwordrequired-template">
+<div id="PasswordMessage">
+<h2>Pokój prywatny</h2>
+<div id="MessageContent">
+Dostęp do pokoju został zamknięty przez użytkownika.
+</div>
+</div>
+</script>
+<script type="text/template" id="error-roomnotexists-template">
+<div id="RoomNotExists" class="shadow-box">
+<img src="https://fotka.com/img/cams/screen_test.gif" alt="Nikt nie nadaje w tym pokoju"/>
+</div>
+<h2 style="text-align: center;">Nikt nie nadaje w tym pokoju, wybierz inny.</h2>
+
+<div id="RoomsList" style="border:none;">
+<% if (typeof (data.rooms) !== "undefined") { %>
+<% for (var room in data.rooms) { %>
+<%= renderRoom(data.rooms[room]) %>
+<% } %>
+<% } %>
+</div>
+<div class="clear"></div>
+</script><script type="text/template" id="error-streamingbanned-template">
+<h2 style="text-align: center; margin-top:50px;">Możliwość prowadzenia transmisji została zablokowana za naruszanie zasad regulaminu.</h2>
+</script><script type="text/template" id="error-tooyoung-template">
+<h2 style="text-align: center;margin-top: 30px;">Dostęp do transmisji został zablokowany z powodu ograniczeń
+wiekowych.</h2>
+
+<div style="text-align: center;margin: 30px 0;">
+<a href="javascript:void(null);" class="zglos_pokoj">
+<span class="sprites ico-abuse" style="display:inline-block;position:relative;top:5px;margin-right:5px;"></span>
+Zgłoś naruszenie
+</a>
+</div>
+</script>
+<script type="text/template" id="room-template">
+<div class="RoomBox <%= typeof (special) !== 'undefined' && special === 'yes' ? 'RoomSpecial' : '' %>">
+<% if (typeof (fake) !== "undefined" && fake) { %>
+<a><img src="<%= typeof (av_126) !== 'undefined' ? av_126 : '' %>" class="room_av" alt="Pokój"/></a>
+<% } else { %>
+<a href="/kamerka/<%= name %>" room_name="<%= name %>" room_title="<%= typeof (title) !== 'undefined' ? escape(title) : '' %>"><img src="<%= typeof (av_126) !== 'undefined' ? av_126 : '' %>"  class="room_av" alt="Pokój <%= name %>"/></a>
+<span class="RoomCounter"><%= viewers + ' ' + (typeof (viewers) !== "undefined" ? inflectViewers(viewers) : '') %></span>
+<% } %>
+</div>
+</script>
+<div class="clear"></div>
+
+<script type="text/template" id="info_template">
+<style type="text/css">
+#msgBoxBody{
+width:700px;
+margin:20px;
+text-align: left;
+}
+</style>
+
+<div id="InfoContainer">
+<h2>Info</h2>
+<h3>Dane użytkownika</h3>
+<div id="UserData">
+<img src="{%av%}" class="av64" style="float:left;margin-right:10px;"/>
+<div style="font-weight: bold;">
+<div><a href="/profil/{%login%}" target="_blank">{%name%}</a></div>
+<div id="info-user-age">Wiek: {%age%} lat {%ageReset%}</div>
+<div>Konto od: {%datetime%}</div>
+</div>
+<div class="clear"></div>
+</div>
+
+{%historyH3%}
+{%Bans%}
+{%History%}
+
+<br clear="all"/>
+</div>
+</script>
+
+<script type="text/template" id="streaming_ban_dialog_template">
+<style type="text/css">
+#msgBoxBody{
+width:500px;
+height: 454px;
+}
+.msgBoxBodyContainer {
+height: 414px;
+}
+.msgBoxBodyContainer>div{
+margin:5px 20px !important;
+}
+</style>
+<h3>Czy na pewno chcesz zablokować użytkownikowi %login% możliwość prowadznia transmisji?</h3>
+<div>%avatar%</div>
+<div id="banReason">
+<div>
+<input type="radio" name="ban_reason" id="ban_6" value="6"><label for="ban_6">obnażanie się/pornografia</label><br/>
+<input type="radio" name="ban_reason" id="ban_99" value="99" checked="checked"><label for="ban_99">inny powód</label>
+<span id="banErrorLabel">Musisz podać powód bana</span>
+</div>
+<div><input type="text" id="p_ban" style="" onclick="$('#ban_99').prop('checked', true);"></div>
+</div>
+
+<h3>Wybierz czas trwania bana:</h3>
+<div id="banTime">
+        <div class="col_cam">
+<div><input type="radio" name="ban_duration" id="tban_1" value="1" checked="checked"><label for="tban_1">1 godzina</label></div>
+<div><input type="radio" name="ban_duration" id="tban_2" value="2"><label for="tban_2">3 godziny</label></div>
+<div><input type="radio" name="ban_duration" id="tban_3" value="3"><label for="tban_3">6 godzin</label></div>
+<div><input type="radio" name="ban_duration" id="tban_4" value="4"><label for="tban_4">1 dzień</label></div>
+        <div><input type="radio" name="ban_duration" id="tban_5" value="5"><label for="tban_5">36 godzin</label></div>
+        </div><div class="col_cam">
+        <div><input type="radio" name="ban_duration" id="tban_6" value="6"><label for="tban_6">3 dni</label></div>
+        <div><input type="radio" name="ban_duration" id="tban_7" value="7"><label for="tban_7">7 dni</label></div>
+        <div><input type="radio" name="ban_duration" id="tban_8" value="8"><label for="tban_8">14 dni</label></div>
+        <div><input type="radio" name="ban_duration" id="tban_9" value="9"><label for="tban_9">30 dni</label></div>
+    </div>
+</div>
+</script>
+
+<script type="text/template" id="adults_dialog_template">
+<div id="forAdultsContainer">
+<h3>Czy na pewno chcesz zablokować użytkownikowi %login% możliwość zmiany widoczności transmisji?</h3>
+<div>%avatar%</div>
+<div id="banTime">
+<div><input type="radio" name="ban_duration" id="tban_1" value="1" checked="checked"><label for="tban_1">1 godzina</label></div>
+<div><input type="radio" name="ban_duration" id="tban_2" value="2"><label for="tban_2">1 dzień</label></div>
+<div><input type="radio" name="ban_duration" id="tban_3" value="3"><label for="tban_3">1 tydzień</label></div>
+<div><input type="radio" name="ban_duration" id="tban_4" value="4"><label for="tban_4">1 miesiąc</label></div>
+</div>
+</div>
+</script>
+
+<script type="text/template" id="ban_dialog_template">
+<style type="text/css">
+#msgBoxBody{
+width:500px;
+height: 538px;
+}
+.msgBoxBodyContainer{
+overflow-y: auto;
+height: 498px;
+}
+.msgBoxBodyContainer>div{
+margin:5px 20px !important;
+}
+</style>
+<h3>Czy na pewno chcesz zbanować użytkownika %login%?</h3>
+<div>%avatar%</div>
+<div id="banReason">
+<div><input type="radio" name="ban_reason" id="ban_1" value="1" checked="checked"><label for="ban_1">reklamowanie serwisów www</label></div>
+<div><input type="radio" name="ban_reason" id="ban_2" value="2"><label for="ban_2">flodowanie, spamowanie</label></div>
+<div><input type="radio" name="ban_reason" id="ban_3" value="3"><label for="ban_3">ubliżanie</label></div>
+<div><input type="radio" name="ban_reason" id="ban_4" value="4"><label for="ban_4">namawianie do rozbierania/aktów pornograficznych</label></div>
+<div><input type="radio" name="ban_reason" id="ban_5" value="5"><label for="ban_5">oferty seksualne</label></div>
+<div>
+<input type="radio" name="ban_reason" id="ban_99" value="99">
+<label for="ban_99">inny, wpisz poniżej:</label>
+<span id="banErrorLabel">Musisz podać powód bana</span>
+</div>
+<div><input type="text" id="p_ban" style="" onclick="$('#ban_99').prop('checked', true);"></div>
+</div>
+
+<h3>Wybierz czas trwania bana:</h3>
+    <div id="banTime">
+        <div class="col_cam">
+            <div><input type="radio" name="ban_duration" id="tban_1" value="1" checked="checked"><label for="tban_1">1 godzina</label></div>
+            <div><input type="radio" name="ban_duration" id="tban_2" value="2"><label for="tban_2">3 godziny</label></div>
+            <div><input type="radio" name="ban_duration" id="tban_3" value="3"><label for="tban_3">6 godzin</label></div>
+            <div><input type="radio" name="ban_duration" id="tban_4" value="4"><label for="tban_4">1 dzień</label></div>
+            <div><input type="radio" name="ban_duration" id="tban_5" value="5"><label for="tban_5">36 godzin</label></div>
+        </div><div class="col_cam">
+            <div><input type="radio" name="ban_duration" id="tban_6" value="6"><label for="tban_6">3 dni</label></div>
+            <div><input type="radio" name="ban_duration" id="tban_7" value="7"><label for="tban_7">7 dni</label></div>
+            <div><input type="radio" name="ban_duration" id="tban_8" value="8"><label for="tban_8">14 dni</label></div>
+            <div><input type="radio" name="ban_duration" id="tban_9" value="9"><label for="tban_9">30 dni</label></div>
+        </div>
+    </div>
+</script>
+
+							<div style="clear:both;"></div>
+
+		
+        
+        
+
+    </div>
+
+	
+<div id="footer">
+	<div style="height: 1px; width:100%; background: white;background: rgba(255,255,255,0.6);padding:0;"></div>
+	<div>
+
+		<div id="footer-menu">
+			<div class="footer-menu-section">
+			<div class="pad">Wszystko o Fotce</div>
+			<a href="/onas" class="k21 no">O Nas</a>
+			<a href="http://spolecznosci.pl/" class="k21 no" target="_blank">Reklama</a>
+			<a href="/regulamin" class="k21 no">Regulamin</a>
+            <a href="/pomoc?id=cookies" class="k21 no">Polityka plików cookies</a>
+			<a href="/polityka-prywatnosci" class="k21 no">Polityka prywatności</a>
+		</div>
+		<div class="footer-menu-section">
+			<div class="pad">Zespół</div>
+			<a href="/pomoc" class="k21 no">Kontakt i pomoc</a>
+			<a href="/team" class="k21 no">Fotka Team</a>
+			<a href="/przyjaciele" class="k21 no">Fotka Przyjaciele</a>
+		</div>
+		<div class="footer-menu-section">
+			<div class="pad">Odkryj Fotkę</div>
+			<a href="/grupy/" class="k21 no">Grupy</a>
+			<a href="/p/mobile" class="k21 no">Fotka Mobile</a>
+			<a href="/lista_zmian" onclick="doGA('trackEvent','LinkStopka','Lista zmian')" class="k21 no">Lista zmian</a>
+            <a href="/18lat" class="k21 no">18 urodziny Fotki</a>
+        </div>
+		<div class="footer-menu-section">
+			<div class="pad">Pobierz darmową aplikację</div>
+			<a href="https://play.google.com/store/apps/details?id=pl.fotka.app" target="_blank"><img src="https://fotka.com/img/blank.gif" id="google-app" class="sprites" alt="Aplikacja Fotka na Androida w Google Play"></a>
+			<a href="https://itunes.apple.com/pl/app/fotka/id880924228?mt=8&uo=4" target="_blank"><img src="https://fotka.com/img/blank.gif" id="apple-app" class="sprites" alt="Aplikacja Fotka na iOS w Apple Store"></a>
+			<a href="https://www.microsoft.com/pl-pl/store/p/fotka/9wzdncrdsjd5" target="_blank"><img src="https://fotka.com/img/blank.gif" id="windows-app" class="sprites" alt="Aplikacja Fotka na Windows Phone w Windows Store"></a>
+			<a href="https://www.facebook.com/fotkapl" class="k21 no" target="_blank"><img src="https://fotka.com/img/blank.gif" id="facebook-fanpage" class="sprites" alt="Fanpage Fotka.pl na Facebooku" /><span>Polub nas na Facebooku</span></a>
+		</div>
+	</div>
+
+<div style="clear:both;float:none;"></div>
+<div id="footer-copyright">Copyright © 2001-2019 Fotka <span class="hide"> ▼</span></div>
+<div style="clear:both;float:none;height:1px;"></div>
+
+<div id="cookies_info">
+    <p class="text">
+        Fotka używa plików <a href="/pomoc?id=cookies" target="_blank" style="color: #666;">cookies</a>. Korzystając z serwisu wyrażasz zgodę na ich przechowywanie.
+    </p>
+    <div id="cookie-close">
+    Ok
+    </div>
+</div>
+    <script type="text/javascript">
+        function show_cookie_msg() {
+            document.getElementById('cookies_info').style.display = 'block';
+            $('#cookie-close').click(function() {
+                $('#cookies_info').hide();
+                $('body').css('padding-bottom', '0');
+                _setLocalCookie('cookie_accept',1,60*24*365);
+                return false;
+            });
+        }
+        $(function() {
+            try {
+                var cookie_accept = _getLocalCookie("cookie_accept");
+                if(cookie_accept == null) {
+                   show_cookie_msg();
+                }
+            } catch(e) {
+                show_cookie_msg();
+            }
+        });
+    </script>
+				<!-- Strona wygenerowana 2019-06-17 09:31:35 1 560 756 695,96 120 .120 -->
+
+					<script type="text/javascript">
+				if (typeof(ga) == "function") {
+					try {
+						ga('send', 'pageview');
+					} catch (err) {}
+				}
+			</script>
+		
+
+
+                    <script type="text/javascript">
+              if (('undefined' !== typeof(_currentUser) && (false === _currentUser.isPro || _currentUser.forceAds === true)) || ('undefined' === typeof(_currentUser) && ('undefined' !== typeof(ad_zalogowany_pro) && 0 === ad_zalogowany_pro))) {
+                var widthRWD = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+                if (widthRWD < 768) {
+                  document.write('<div class="spolecznoscinet" id="spolecznosci-3188" snet-sticky="true"></div>');
+                } else {
+                  document.write('<div class="spolecznoscinet" id="spolecznosci-3190" snet-sticky="true"></div>');
+                }
+              }
+            </script>
+        		<script type="text/javascript">
+			if (('undefined' !== typeof(_currentUser) && (false === _currentUser.isPro || _currentUser.forceAds === true)) || ('undefined' === typeof(_currentUser) && ('undefined' !== typeof(ad_zalogowany_pro) && 0 === ad_zalogowany_pro))) {
+				document.write('<div class="spolecznoscinet" id="spolecznosci-47"></div>');
+			}
+		</script>
+		<script type="text/javascript">
+			var _qasp = _qasp || [];
+			var allow_profile_data = (('undefined' !== typeof(_currentUser) && null !== _currentUser && _currentUser.hasOwnProperty('allow_profile_data')) && _currentUser.allow_profile_data == true);
+            if ('undefined' !== typeof(_currentUser) && null !== _currentUser) {
+                if (_currentUser.hasOwnProperty('id') && _currentUser.id > 0 && allow_profile_data) {
+                    _qasp.push(['setData', {
+                        'Uu': true,
+                        'Pl': _currentUser.gender,
+                        'Wi': _currentUser.age,
+                        'Wo': (_currentUser.hasOwnProperty('ad') && typeof(_currentUser.ad.province) !== 'undefined') ? _currentUser.ad.province : ''
+                    }]);
+                }
+                if (_currentUser.hasOwnProperty('ad') && null !== _currentUser.ad && 'undefined' !== typeof(_currentUser.ad.features)) {
+                    _qasp.push(['uTags', _currentUser.ad.features]);
+                }
+            }
+			var widthRWD = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+						_qasp.push(['setSafe', ((typeof(photos_google_accepted) == 'undefined' || photos_google_accepted) ? true : false)]);
+			
+			_qasp.push('go');
+
+						if (widthRWD < 768) {
+				_qasp.push(['setFastPAID', 'sadm.Fotka']);
+			} else {
+				_qasp.push(['setFastPAID', 'sadFotka']);
+			}
+			
+					</script>
+
+		
+					<script type="text/javascript">
+				<!--//--><![CDATA[//><!--
+				var pp_gemius_identifier = 'd2OVf8dPbV4ntLZhYEe5x7ePrjvYdNrwVHz4HivGn7v.c7';
+				// lines below shouldn't be edited
+				function gemius_pending(i) {
+					window[i] = window[i] || function () {
+							var x = window[i + '_pdata'] = window[i + '_pdata'] || [];
+							x[x.length] = arguments;
+						};
+				}
+				gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+				(function(d,t) {try {var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');
+					gt.setAttribute('defer','defer'); gt.src=l+'://gapl.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) {}})(document,'script');
+				//--><!]]>
+			</script>
+			</div>
+</div>
+
+<script src="https://fotka.com/js/webpush.1548756612.js"></script>
+<!--adblock sugestia view-->
+<div id="adblock_sugestia_container">
+	<div id="adblock_sugestia">
+		<div class="stworek">
+		</div>
+		<div class="popup">
+			<div class="sprites close_adblock"></div>
+			<div class="content">
+				<h2>Wykryliśmy Adblocka</h2>
+				<div class="part1">Dzięki reklamom podstawowa funkcjonalność serwisu jest bezpłatna. Staramy się aby nasze reklamy były jak najmniej uciążliwe dlatego nie stosujemy inwazyjnych formatów reklamowych.<br />Prosimy wyłącz AdBlocka na Fotce.</div>
+				<div class="part2"><a class="adb_sug" href="#"><div class="button_n">Odblokuj Fotkę</div></a></div>
+				<div class="part3">Nie wiesz jak to zrobić? <a href="/kontakt/#help_258">Zobacz Instrukcję</a></div>
+			</div>
+		</div>
+	</div>
+	<div id="adblock_bg">
+	</div>
+</div>
+<!--adblock sugestia view end-->
+
+</body>
+</html>
